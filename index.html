@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main-container">
+        <!-- side bar for menu -->
+        <div class="sidebar">
+            Content
+            <ul>
+                <li>Operators</li>
+                <li>Variables</li>
+                <li>Datatypes</li>
+            </ul>
+        </div>
+
+        <!-- scroling body -->
+        <div class="Content">
+            <div class="topic">Operators</div>
+            <div class="topic-description">
+                In JavaScript, an operator is a special symbol or keyword that performs an operation on one or more operands (variables or values) and produces a result. JavaScript supports various types of operators, including arithmetic, assignment, comparison, logical, bitwise, and more.
+            </div>
+            <div class="sub-topic">
+                Arithmetic Operators:
+            </div>
+            <div class="subtopic-description">
+                Arithmetic Operators Perform mathematical calculations.
+                    <ul>
+                        <li>Addition (+)</li>
+                        <li>Subtraction (-)</li>
+                        <li>Multiplication (*)</li>
+                        <li>Division (/)</li>
+                        <li>Remainder (%)</li>
+                        <li>Increment (++)</li>
+                        <li>Decrement (--)</li>
+                    </ul> 
+                    <!-- Arthematic operator example with simple calculator -->
+                    <div class="example">
+                        Try yourself !!
+                        <br>
+                        <input id="num1" type="number" name="num1" placeholder="Enter Num 1. . . " required>
+                        <select  id="current_operator" name="current_operator">
+                            <option value="">Select Operator</option>
+                            <option id="add" value="+">+</option>
+                            <option id="sub" value="-">-</option>
+                            <option id="div" value="/">/</option>
+                            <option id="mul" value="*">*</option>
+                        </select>
+                
+                        <!-- Input field for second number -->
+                        <input id="num2" type="number" name="num2" placeholder="Enter Num 2. . ." required>
+                         
+                        <br><br>
+                        <button id="calculateBtn">Calculate</button>
+
+                        <!-- Output section for answer -->
+                        <label for="ans">
+                            Your ans is:
+                        </label>
+                        <output id="ans"></output>
+                    </div>
+                    <!-- --------------------------------------- -->                       
+            </div>
+
+            <!-- Assignment Operator -->
+            <div class="sub-topic">
+                Assignment Operators:
+            </div>
+            <div class="subtopic-description">
+                Assign values to variables.
+                <ul>
+                    <li>Assignment (=)</li>
+                    <li>Addition Assignment (+=)</li>
+                    <li>Subtraction Assignment (-=)</li>
+                    <li>Multiplication Assignment (*=)</li>
+                    <li>Division Assignment (/=)</li>
+                    <li>Remainder Assignment (%=)</li>
+                </ul>
+                <div class="example">
+                    Try yourself !!<br>
+                    <input id="var1" type="text" placeholder="Enter variable . .">
+                    =
+                    <input id="num" type="number" placeholder="Enter Number . . ">
+                    <br><br>
+                    <button id="result">See result</button>
+                    <output id="ans1"></output>
+                </div>
+            </div>
+
+            <!-- ---------------------- -->
+            
+
+            
+
+            <div class="topic">Variables</div>
+            <div class="description">In JavaScript, variables are used to store and manipulate data. They are containers that hold values that can be referenced and manipulated throughout a script.</div>
+            <div class="example">
+                variables example
+            </div>
+
+            <div class="topic">Data Types</div>
+            <div class="description">A data type is a classification that specifies which type of value a variable can hold in a programming language or system. It defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored.</div>
+            <div class="example">
+                Data Types example
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: #FFFFFF;
+}
+.main-container{
+    display: flex;
+    gap: 8px;
+
+}
+.sidebar{
+    color: #FFFFFF;
+    background-color: rgb(58, 57, 57);
+    height: 100rem;
+    width: 20vw;
+    padding: 0.2rem;
+}
+.topic{
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: #568EA3;
+    margin-bottom: 8px;
+}
+.topic-description{
+    color: black;
+    font-weight: lighter;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.sub-topic{
+    font-size: 1.5rem;
+    background-color: #FFE8D1;
+    padding: 0.5rem;
+}
+.subtopic-description{
+    font-size: 1rem;
+    background-color: #FFE8D1;
+    margin-bottom: 8px;
+    padding: 1rem;
+}
+.example{
+    font-weight: bold;
+}
