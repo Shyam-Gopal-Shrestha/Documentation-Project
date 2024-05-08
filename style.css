@@ -40,4 +40,6 @@ body{
 }
 .example{
     font-weight: bold;
+    background-color: #c8c6c6;
+    padding: 8px;
 }
