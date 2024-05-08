@@ -114,12 +114,12 @@
                             <div>
                                 var message = "Hello, World!";<br>
 
-                                let age = 30;       // Variable declaration and initialization<br>
-                                let firstName; // Variable declaration without initialization<br>
+                                let age = 30;           // Variable declaration and initialization<br>
+                                let firstName;          // Variable declaration without initialization<br>
             
-                                firstName = "John"; // Variable assignment<br>
+                                firstName = "John";     // Variable assignment<br>
             
-                                const PI = 3.14; // Constant declaration (cannot be reassigned)  
+                                const PI = 3.14;        // Constant declaration (cannot be reassigned)  
                             </div>
                         </div>
                     </div>
@@ -129,18 +129,49 @@
             <div class="topic">Data Types</div>
             <div class="description">
                 A data type is a classification that specifies which type of value a variable can hold in a programming language or system. It defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored.
+                JavaScript has several built-in data types:
                 <div class="sub-topic">
-                    Defining 
+                    1. Primitive Data Types:
                     <div class="subtopic-description">
-                         
-
-                        <div class="example">
-                            Data Types example
-                        </div>
+                        Number: Represents numeric values. It includes integers and floating-point numbers.<br>
+                        <div class="example">let num = 10;</div>
+                        <br>
+                        String: Represents textual data, enclosed in single or double quotes.<br>
+                        <div class="example">let str = "Hello, World!";</div>
+                        <br>
+                        Boolean: Represents a logical value indicating true or false.<br>
+                        <div class="example">let isTrue = true;</div>
+                        <br>
+                        Undefined: Represents a variable that has been declared but not assigned a value.<br>
+                        <div class="example">let undef;</div>
+                        <br>
+                        Null: Represents an intentional absence of any value.<br>
+                        <div class="example">let n = null;</div>
+                        <br>
+                        Symbol: Introduced in ES6, represents unique identifiers. Symbols are primarily used as property keys in objects.<br>
+                        <div class="example">let sym = Symbol("unique");</div>
+                        <br>
                     </div>
-                    
+
+                    2. Non-primitive (Reference) Data Types:
+                    <div class="subtopic-description">
+                        Object: Represents a collection of key-value pairs, where values can be of any data type, including other objects.<br>
+                        <div class="example">let obj = { key: "value" };</div>
+                        <br>
+                        Array: Represents an ordered list of values. Arrays can contain values of any data type, including other arrays and objects.<br>
+                        <div class="example">let arr = [1, 2, 3];</div>
+                        <br>
+                        Function: Represents a reusable block of code that performs a specific task. Functions are also objects in JavaScript.<br>
+                        <div class="example">function greet() {<br>
+                                                return "Hello!";<br>
+                                             }
+                        </div>
+                        <br>
+    
+                        JavaScript also provides special values like NaN (Not-a-Number) and Infinity to represent certain mathematical situations.<br>
+                        <br>                        
+                    </div>                    
                 </div>
-                
             </div> 
         </div>
     </div>
